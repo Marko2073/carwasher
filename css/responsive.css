@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=responsive.css.map */
+@media (max-width: 768px) {
+  p {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

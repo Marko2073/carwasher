@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #EEEEEE;
 }
@@ -59,7 +63,7 @@ main .container-fluid .container .row #myCol a {
   border: 1px solid black;
 }
 
-.container-fluid .container .row .col-sm-12 #formContact #imePrezime, .container-fluid .container .row .col-sm-12 #formContact #email, .container-fluid .container .row .col-sm-12 #formContact #napomena {
+.container-fluid .container .row .col-sm-12 #formContact #imePrezime, .container-fluid .container .row .col-sm-12 #formContact #email, .container-fluid .container .row .col-sm-12 #formContact #napomena, .container-fluid .container .row .col-sm-12 #formContact #izbor {
   width: 100%;
   border-top: none;
   border-radius: 5px;
@@ -68,6 +72,14 @@ main .container-fluid .container .row #myCol a {
   text-align: center;
   padding: 5px;
   margin-bottom: 10px;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact #email {
+  margin: 0px;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact label {
+  font-size: 18px;
 }
 
 .container-fluid .container .row .col-sm-12 #formContact ::-webkit-input-placeholder {
@@ -102,5 +114,16 @@ main .container-fluid .container .row #myCol a {
   margin: 10px;
   border-radius: 5px;
   border-color: #1498D5;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact #buttons #potvrdi:hover, .container-fluid .container .row .col-sm-12 #formContact #buttons #reset:hover {
+  background-color: #1498D5;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+footer .col-12 .ms-3 .text-muted {
+  font-size: 19px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -10,6 +10,9 @@ $icons:#7aa1e9;
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
+a{
+    text-decoration: none;
+}
 header{
     background-color: $primary;
     .container{
@@ -89,7 +92,7 @@ main{
                     border: 1px solid black;
                 }
                 #formContact{
-                    #imePrezime, #email, #napomena{
+                    #imePrezime, #email, #napomena, #izbor{
                         width:100%;
                         border-top:none;
                         border-radius: 5px;
@@ -98,6 +101,12 @@ main{
                         text-align: center;
                         padding: 5px;
                         margin-bottom: 10px;
+                    }
+                    #email{
+                        margin:0px
+                    }
+                    label{
+                        font-size: 18px;
                     }
                     ::placeholder{
                         color:black;
@@ -111,9 +120,23 @@ main{
                             margin: 10px;
                             border-radius: 5px;
                             border-color: $detailColor;
+                            &:hover{
+                                background-color: $detailColor;
+                                color:white;
+                                transition: 1s;
+                            }
                         }
                     }
                 }
+            }
+        }
+    }
+}
+footer{
+    .col-12{
+        .ms-3{
+            .text-muted{
+                font-size: 19px;
             }
         }
     }
