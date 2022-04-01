@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.scss" />
+
+    <title>Kontakt</title>
+</head>
+<body>
+    <section id="header">
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="/img/logo1.png" alt="logo">
+                    </a>
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#toggleMobileMenu"
+                        aria-controls="toggleMobileMenu"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li>
+                                <a class="nav-link" href="index.html">Pocetna</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="pricing.html">Cenovnik</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="gallery.html">Galerija</a>
+                            </li>
+                            <li>
+                                <a class="nav-link active" href="contact.html">Kontakt</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="https://marko2073.github.io/portfolio/" target="/blank">O autoru</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+    <section id="baner">
+        <div class="container-fluid baner">
+            <div class="container pt-3 pb-3 d-flex flex-column align-items-center text-center">
+                <div id="logo">
+                    <img src="/img/logo1.png" alt="logo">
+                </div>
+                <h1 class="pb-3">Profesionalno dubinsko pranje i poliranje - CarWash detailing</h1>
+                <p>CarWash pruža usluge kao što su: poliranje automobila, detaljno čišćenje, dubinsko pranje, detailing raznih delova vaših automobila i motocikala na najvišem mogućem nivou. Kod nas možete osvežiti izgled Vašeg automobila, vratiti mu stari sjaj, ili na pravilan način održavati i zaštiti Vaš nov automobil.</p>
+            </div>
+        </div>
+    </section>
+    <section id="main">
+        <main>
+            <div class="container-fluid">
+                <div class="container pb-5">
+                    <h2 class="text-center py-3">Kontakt</h2>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center" id="myCol">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90809.49311965432!2d20.85582527511104!3d44.6625059468009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47509391ba985a39%3A0xcb5787c17b2e1e1!2z0KHQvNC10LTQtdGA0LXQstC-!5e0!3m2!1ssr!2srs!4v1648717173438!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center text-center" id="myCol">
+                            <form class="py-3 d-flex flex-column align-items-center" id="formContact" method="get" action="send.php" >					
+                                <input type="text" id="imePrezime" placeholder="Ime i prezime:" />
+                                <input type="email" id="email" placeholder="E-mail adresa:" />
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <textarea id="napomena" cols="31" rows="8" placeholder="Napomena:" ></textarea>
+                                <div id="buttons">
+                                    <button id="potvrdi" type="submit" value="Potvrdi"> <i class="fas fa-paper-plane"></i> </button>
+                                    <button id="reset" type="reset" value="Poništi" > <i class="fas fa-times"></i> </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+    </section>
+    <section id="footer">
+        
+        <div class="container-fluid px-0">
+            <footer class="d-flex flex-sm-row flex-column justify-content-between align-items-center py-3 border-top">
+              <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
+                <span class="text-muted px-4 fw-bold">All rightd reserved, Marko Marković.</span>
+              </div>     
+              <ul class="nav col-12 col-sm-6 justify-content-end list-unstyled d-flex justify-content-center px-4">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fas fa-rss fa-lg"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fas fa-rss fa-lg"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fas fa-rss fa-lg"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fas fa-rss fa-lg"></i></a></li>
+              </ul>
+            </footer>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7cbd3df8a7.js" crossorigin="anonymous"></script>
+</body>
+</html>

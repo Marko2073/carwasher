@@ -1,0 +1,106 @@
+header {
+  background-color: #EEEEEE;
+}
+
+header .container .navbar .collapse ul li a {
+  font-size: 20px;
+  color: #1498D5;
+}
+
+.baner {
+  background-color: #DBE2EF;
+}
+
+.baner .container {
+  width: 60%;
+}
+
+.baner .container p {
+  font-size: 20px;
+}
+
+main {
+  background-color: #EEEEEE;
+}
+
+main .container-fluid .container .row #myCol {
+  padding: 15px;
+  background-color: #DBE2EF;
+}
+
+main .container-fluid .container .row #myCol img {
+  width: 100%;
+}
+
+main .container-fluid .container .row #myCol a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #1498D5;
+}
+
+#nacinPlacanja .container-fluid .container .row .col-md-4 h3 {
+  font-size: 23px;
+}
+
+#nacinPlacanja .container-fluid .container .row .col-md-4 svg {
+  width: 50px;
+  height: 50px;
+  fill: #7aa1e9;
+}
+
+#nacinPlacanja .container-fluid .container .row .col-md-4 p {
+  padding: 15px;
+}
+
+.container-fluid .container .row .col-sm-12 iframe {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact #imePrezime, .container-fluid .container .row .col-sm-12 #formContact #email, .container-fluid .container .row .col-sm-12 #formContact #napomena {
+  width: 100%;
+  border-top: none;
+  border-radius: 5px;
+  border-color: #1498D5;
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact ::-webkit-input-placeholder {
+  color: black;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact :-ms-input-placeholder {
+  color: black;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact ::-ms-input-placeholder {
+  color: black;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact ::placeholder {
+  color: black;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact #buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container-fluid .container .row .col-sm-12 #formContact #buttons #potvrdi, .container-fluid .container .row .col-sm-12 #formContact #buttons #reset {
+  width: 100%;
+  margin: 10px;
+  border-radius: 5px;
+  border-color: #1498D5;
+}
+/*# sourceMappingURL=style.css.map */

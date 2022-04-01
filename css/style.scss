@@ -1,0 +1,121 @@
+$primary:#EEEEEE;
+$banerCol:#DBE2EF;
+$secondary:#393e46bd;
+$detailColor:#1498D5;
+$icons:#7aa1e9;
+@mixin HR{
+	border:3px solid $red;
+	width:50%;
+	margin: 0px auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+header{
+    background-color: $primary;
+    .container{
+        .navbar{
+            .collapse{
+                ul{
+                    li{
+                        a{
+                            font-size: 20px;
+                            color:$detailColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.baner{
+    background-color: $banerCol;
+    .container{
+        width:60%;
+        p{
+            font-size: 20px;
+        }
+    }
+}
+main{
+    background-color: $primary;
+    .container-fluid{
+        .container{
+            .row{
+                #myCol{
+                    padding:15px;
+                    background-color: $banerCol;
+                    img{
+                        width:100%;
+                    }
+                    a{
+                        color:black;
+                        text-decoration: none;
+                        padding:5px;
+                        border-radius:4px;
+                        background-color: $detailColor;
+                    }
+                }
+            }
+        }
+    }
+}
+#nacinPlacanja{
+    .container-fluid{
+        .container{
+            .row{
+                .col-md-4{
+                    h3{
+                        font-size: 23px;
+                    }
+                    svg{
+                        width:50px;
+                        height: 50px;
+                        fill: $icons;
+                    }
+                    p{
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.container-fluid{
+    .container{
+        .row{
+            .col-sm-12{
+                iframe{
+                    border-radius: 5px;
+                    border: 1px solid black;
+                }
+                #formContact{
+                    #imePrezime, #email, #napomena{
+                        width:100%;
+                        border-top:none;
+                        border-radius: 5px;
+                        border-color: $detailColor;
+                        background-color: $primary;
+                        text-align: center;
+                        padding: 5px;
+                        margin-bottom: 10px;
+                    }
+                    ::placeholder{
+                        color:black;
+                    }
+                    #buttons{
+                        width:100%;
+                        display: flex;
+                        flex-direction: row;
+                        #potvrdi, #reset{
+                            width:100%;
+                            margin: 10px;
+                            border-radius: 5px;
+                            border-color: $detailColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
