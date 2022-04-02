@@ -37,11 +37,19 @@ main .container-fluid .container .row #myCol img {
 }
 
 main .container-fluid .container .row #myCol a {
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 5px;
   border-radius: 4px;
   background-color: #1498D5;
+  border: 1px solid #1498D5;
+}
+
+main .container-fluid .container .row #myCol a:hover {
+  color: #1498D5;
+  background-color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 #nacinPlacanja .container-fluid .container .row .col-md-4 h3 {
@@ -129,5 +137,6 @@ main .container-fluid .container .row #myCol a {
 
 footer .col-12 .ms-3 .text-muted {
   font-size: 19px;
+  line-height: 48px;
 }
 /*# sourceMappingURL=style.css.map */
