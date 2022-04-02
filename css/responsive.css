@@ -1,6 +1,12 @@
-@media (max-width: 768px) {
-  p {
-    font-size: 10px;
+@media (max-width: 769px) {
+  .baner .container {
+    width: 90%;
+  }
+  .baner .container h1 {
+    font-size: 20px;
+  }
+  .baner .container p {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
