@@ -132,6 +132,21 @@ main{
         }
     }
 }
+#zastoMi{
+    .container-fluid{
+        .container{
+            .row{
+                .col-sm-6{
+                    #carouselExampleControls{
+                        .carousel-control-prev-icon, .carousel-control-next-icon{
+                            background-color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 footer{
     .col-12{
         .ms-3{
