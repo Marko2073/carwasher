@@ -10,6 +10,24 @@ $icons:#7aa1e9;
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
+@keyframes scale-in{
+	0% {
+		transform: scaleX(0);
+	}
+	100% {
+		transform: scaleX(1);
+	}
+}
+@keyframes flip{
+	0% {	 
+		transform: translateY(0) rotateX(0);	 
+		transform-origin: 50% 0%;
+	}
+	100% {
+		transform: translateY(0%) rotateX(360deg);
+		transform-origin: 50% 100%;
+	}
+  }
 a{
     text-decoration: none;
 }
@@ -34,6 +52,9 @@ header{
     background-color: $banerCol;
     .container{
         width:60%;
+        #logo ,h1{
+            animation: scale-in 1s;
+        }
         p{
             font-size: 20px;
         }
@@ -43,6 +64,14 @@ main{
     background-color: $primary;
     .container-fluid{
         .container{
+            h2{
+                animation: flip 1s;
+            }
+            .col-12{
+                h1{
+                    animation: flip 1s;
+                }
+            }
             .row{
                 #myCol{
                     padding:20px;
